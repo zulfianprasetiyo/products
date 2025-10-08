@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produk SEM & SEO - PT DIGITAL INTI ABADI</title>
+    <meta name="description" content="Jelajahi produk SEM & SEO terbaik dari PT DIGITAL INTI ABADI. Solusi lengkap untuk meningkatkan visibilitas online dan traffic website Anda dengan strategi yang terbukti efektif.">
+    <meta name="keywords" content="SEM, SEO, Google Ads, Facebook Ads, Digital Marketing, PT DIGITAL INTI ABADI, Indonesia">
+    <meta name="author" content="PT DIGITAL INTI ABADI">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://digitalintijaya.com/">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Produk SEM & SEO - PT DIGITAL INTI ABADI">
+    <meta property="og:description" content="Jelajahi produk SEM & SEO terbaik dari PT DIGITAL INTI ABADI. Solusi lengkap untuk meningkatkan visibilitas online dan traffic website Anda.">
+    <meta property="og:image" content="https://digitalintijaya.com/assets/images/digitalintijaya.png">
+    <meta property="og:url" content="https://digitalintijaya.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="PT DIGITAL INTI ABADI">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Produk SEM & SEO - PT DIGITAL INTI ABADI">
+    <meta name="twitter:description" content="Jelajahi produk SEM & SEO terbaik dari PT DIGITAL INTI ABADI. Solusi lengkap untuk meningkatkan visibilitas online dan traffic website Anda.">
+    <meta name="twitter:image" content="https://digitalintijaya.com/assets/images/digitalintijaya.png">
+    
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "PT DIGITAL INTI ABADI",
+        "url": "https://digitalintijaya.com",
+        "logo": "https://digitalintijaya.com/assets/images/digitalintijaya.png",
+        "description": "Digital Marketing Agency terdepan di Indonesia",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Jl. Sudirman No. 123",
+            "addressLocality": "Jakarta Pusat",
+            "postalCode": "10220",
+            "addressCountry": "ID"
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+62-816-4044-47",
+            "contactType": "customer service"
+        }
+    }
+    </script>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .gradient-text {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .category-filter.active {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .product-card {
+            transition: all 0.3s ease;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .price-badge {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        .feature-item {
+            position: relative;
+            padding-left: 1.5rem;
+        }
+
+        .feature-item::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: #10b981;
+            font-weight: bold;
+        }
+        
+    </style>
+    
+    <script>
+        // Company data
+        const companyName = "PT DIGITAL INTI ABADI";
+        const pageTitle = "Produk SEM & SEO";
+        
+        // Products data (converted from PHP array)
+        const products = [
+            {
+                id: 1,
+                name: "Google Ads Management",
+                slug: "google-ads",
+                category: "sem",
+                description: "Kelola kampanye Google Ads Anda dengan strategi yang tepat untuk ROI maksimal",
+                features: [
+                    "Setup & Optimasi Kampanye",
+                    "Keyword Research Mendalam",
+                    "Ad Copy yang Menarik",
+                    "Landing Page Optimization",
+                    "Bid Management Otomatis",
+                    "Laporan Performance Harian"
+                ],
+                price: "Rp 5.000.000",
+                period: "/bulan",
+                popular: true,
+                icon: "fab fa-google",
+                color: "from-blue-500 to-blue-700",
+                bgColor: "bg-blue-50",
+                textColor: "text-blue-600"
+            },
+            {
+                id: 2,
+                name: "Facebook Ads",
+                slug: "facebook-ads",
+                category: "sem",
+                description: "Jangkau target audience yang tepat dengan Facebook & Instagram Ads yang efektif",
+                features: [
+                    "Audience Targeting Presisi",
+                    "Creative Design & Copywriting",
+                    "A/B Testing Berkelanjutan",
+                    "Pixel Installation & Setup",
+                    "Retargeting Campaign",
+                    "Performance Analytics"
+                ],
+                price: "Rp 4.500.000",
+                period: "/bulan",
+                popular: false,
+                icon: "fab fa-facebook-f",
+                color: "from-blue-600 to-indigo-700",
+                bgColor: "bg-indigo-50",
+                textColor: "text-indigo-600"
+            },
+            {
+                id: 3,
+                name: "SEO Audit & Analysis",
+                slug: "seo-audit",
+                category: "seo",
+                description: "Analisis mendalam website Anda untuk mengidentifikasi peluang optimasi SEO",
+                features: [
+                    "Technical SEO Audit",
+                    "Competitor Analysis",
+                    "Keyword Gap Analysis",
+                    "Site Speed Optimization",
+                    "Mobile-First Indexing Check",
+                    "Actionable Recommendations"
+                ],
+                price: "Rp 2.500.000",
+                period: "/sekali",
+                popular: false,
+                icon: "fas fa-search",
+                color: "from-green-500 to-emerald-600",
+                bgColor: "bg-green-50",
+                textColor: "text-green-600"
+            },
+            {
+                id: 4,
+                name: "On-Page SEO",
+                slug: "onpage-seo",
+                category: "seo",
+                description: "Optimasi konten dan struktur halaman untuk peringkat search engine yang lebih baik",
+                features: [
+                    "Content Optimization",
+                    "Meta Tags Optimization",
+                    "Internal Linking Strategy",
+                    "Schema Markup Implementation",
+                    "Image SEO Optimization",
+                    "User Experience Enhancement"
+                ],
+                price: "Rp 3.500.000",
+                period: "/bulan",
+                popular: true,
+                icon: "fas fa-file-alt",
+                color: "from-purple-500 to-pink-600",
+                bgColor: "bg-purple-50",
+                textColor: "text-purple-600"
+            },
+            {
+                id: 5,
+                name: "Technical SEO",
+                slug: "technical-seo",
+                category: "seo",
+                description: "Perbaikan teknis website untuk crawlability dan indexability yang optimal",
+                features: [
+                    "Site Architecture Optimization",
+                    "XML Sitemap Creation",
+                    "Robots.txt Optimization",
+                    "Core Web Vitals Improvement",
+                    "HTTPS Implementation",
+                    "Structured Data Markup"
+                ],
+                price: "Rp 4.000.000",
+                period: "/bulan",
+                popular: false,
+                icon: "fas fa-cogs",
+                color: "from-orange-500 to-red-600",
+                bgColor: "bg-orange-50",
+                textColor: "text-orange-600"
+            },
+            {
+                id: 6,
+                name: "Local SEO Services",
+                slug: "local-seo",
+                category: "seo",
+                description: "Dominasi pencarian lokal dan tingkatkan visibilitas bisnis di area target Anda",
+                features: [
+                    "Google My Business Optimization",
+                    "Local Citation Building",
+                    "Review Management",
+                    "Local Keyword Targeting",
+                    "NAP Consistency Check",
+                    "Local Content Strategy"
+                ],
+                price: "Rp 3.000.000",
+                period: "/bulan",
+                popular: false,
+                icon: "fas fa-map-marker-alt",
+                color: "from-teal-500 to-cyan-600",
+                bgColor: "bg-teal-50",
+                textColor: "text-teal-600"
+            },
+            {
+                id: 7,
+                name: "E-commerce SEO",
+                slug: "ecommerce-seo",
+                category: "seo",
+                description: "Strategi SEO khusus untuk toko online dan marketplace untuk meningkatkan penjualan",
+                features: [
+                    "Product Page Optimization",
+                    "Category Structure Planning",
+                    "Shopping Feed Optimization",
+                    "Product Schema Implementation",
+                    "Marketplace SEO Strategy",
+                    "Conversion Rate Optimization"
+                ],
+                price: "Rp 5.500.000",
+                period: "/bulan",
+                popular: true,
+                icon: "fas fa-shopping-cart",
+                color: "from-yellow-500 to-orange-600",
+                bgColor: "bg-yellow-50",
+                textColor: "text-yellow-600"
+            },
+            {
+                id: 8,
+                name: "Content Marketing SEO",
+                slug: "content-marketing",
+                category: "content",
+                description: "Strategi konten yang SEO-friendly untuk membangun otoritas dan engagement",
+                features: [
+                    "Content Strategy Development",
+                    "SEO Content Writing",
+                    "Blog Management",
+                    "Content Calendar Planning",
+                    "Topic Cluster Strategy",
+                    "Content Performance Tracking"
+                ],
+                price: "Rp 4.200.000",
+                period: "/bulan",
+                popular: false,
+                icon: "fas fa-pen-fancy",
+                color: "from-indigo-500 to-purple-600",
+                bgColor: "bg-indigo-50",
+                textColor: "text-indigo-600"
+            },
+            {
+                id: 9,
+                name: "Link Building Campaign",
+                slug: "link-building",
+                category: "seo",
+                description: "Bangun otoritas domain dengan strategi link building yang aman dan berkualitas",
+                features: [
+                    "High-Quality Backlink Acquisition",
+                    "Guest Posting Strategy",
+                    "Broken Link Building",
+                    "Resource Page Link Building",
+                    "Competitor Backlink Analysis",
+                    "Link Quality Monitoring"
+                ],
+                price: "Rp 6.000.000",
+                period: "/bulan",
+                popular: false,
+                icon: "fas fa-link",
+                color: "from-gray-600 to-gray-800",
+                bgColor: "bg-gray-50",
+                textColor: "text-gray-600"
+            },
+            {
+                id: 10,
+                name: "SEO Consultation",
+                slug: "seo-consultation",
+                category: "consultation",
+                description: "Konsultasi strategis dengan SEO expert untuk roadmap jangka panjang bisnis Anda",
+                features: [
+                    "1-on-1 Strategy Session",
+                    "Custom SEO Roadmap",
+                    "Competitive Analysis",
+                    "Growth Opportunity Identification",
+                    "Team Training & Guidance",
+                    "Ongoing Support & Monitoring"
+                ],
+                price: "Rp 2.000.000",
+                period: "/sesi",
+                popular: false,
+                icon: "fas fa-user-tie",
+                color: "from-rose-500 to-pink-600",
+                bgColor: "bg-rose-50",
+                textColor: "text-rose-600"
+            }
+        ];
+    </script>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white/90 backdrop-blur-md shadow-lg fixed w-full z-50 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center mr-4">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <div class="text-2xl font-bold gradient-text" id="company-name">PT DIGITAL INTI ABADI</div>
+                        <div class="text-sm text-blue-600 font-medium">#1 Digital Marketing Agency Indonesia</div>
+                    </div>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="https://wa.me/62816404447" class="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full hover:from-blue-700 hover:to-purple-700 transition-all">
+                        Konsultasi Gratis
+                    </a>
+                </div>
+                
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" class="text-gray-700 hover:text-blue-600 focus:outline-none">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Navigation -->
+        <div id="mobile-menu" class="md:hidden hidden bg-white border-t border-gray-200">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="https://wa.me/62816404447" class="block px-3 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg text-center font-medium">Konsultasi Gratis</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 bg-gradient-to-br from-blue-50 via-white to-purple-50 relative overflow-hidden">
+        <!-- Background Elements -->
+        <div class="absolute top-0 left-0 w-full h-full overflow-hidden">
+            <div class="absolute top-20 left-10 w-72 h-72 bg-blue-200 rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-pulse"></div>
+            <div class="absolute top-40 right-10 w-72 h-72 bg-purple-200 rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-pulse animation-delay-2000"></div>
+            <div class="absolute -bottom-8 left-20 w-72 h-72 bg-pink-200 rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-pulse animation-delay-4000"></div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center" data-aos="fade-up">
+                <div class="inline-flex items-center px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium mb-6">
+                    <i class="fas fa-rocket mr-2"></i>
+                    Produk Digital Marketing Terdepan
+                </div>
+                
+                <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+                    Solusi <span class="gradient-text">SEM & SEO</span><br>
+                    untuk Bisnis Anda
+                </h1>
+                
+                <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
+                    Jelajahi koleksi lengkap produk digital marketing kami yang dirancang khusus untuk meningkatkan 
+                    visibilitas online, traffic, dan konversi bisnis Anda dengan strategi yang terbukti efektif.
+                </p>
+                
+                <div class="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+                    <a href="#products" class="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-full font-bold hover:from-blue-700 hover:to-purple-700 transition-all transform hover:scale-105">
+                        <i class="fas fa-eye mr-2"></i>
+                        Lihat Semua Produk
+                    </a>
+                    <a href="https://wa.me/62816404447" class="border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-full font-bold hover:border-blue-500 hover:text-blue-600 transition-all">
+                        <i class="fas fa-phone mr-2"></i>
+                        Konsultasi Gratis
+                    </a>
+                </div>
+                
+                <!-- Stats -->
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
+                    <div class="text-center" data-aos="fade-up" data-aos-delay="100">
+                        <div class="text-3xl font-bold text-blue-600 mb-2">500+</div>
+                        <div class="text-gray-600 text-sm">Klien Puas</div>
+                    </div>
+                    <div class="text-center" data-aos="fade-up" data-aos-delay="200">
+                        <div class="text-3xl font-bold text-purple-600 mb-2">10+</div>
+                        <div class="text-gray-600 text-sm">Produk Unggulan</div>
+                    </div>
+                    <div class="text-center" data-aos="fade-up" data-aos-delay="300">
+                        <div class="text-3xl font-bold text-green-600 mb-2">95%</div>
+                        <div class="text-gray-600 text-sm">Success Rate</div>
+                    </div>
+                    <div class="text-center" data-aos="fade-up" data-aos-delay="400">
+                        <div class="text-3xl font-bold text-orange-600 mb-2">24/7</div>
+                        <div class="text-gray-600 text-sm">Support</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Section Header -->
+            <div class="text-center mb-16" data-aos="fade-up">
+                <div class="inline-flex items-center px-4 py-2 bg-gradient-to-r from-blue-100 to-purple-100 text-blue-800 rounded-full text-sm font-medium mb-4">
+                    <i class="fas fa-star mr-2"></i>
+                    Produk Terbaik Kami
+                </div>
+                <h2 class="text-3xl md:text-5xl font-bold text-gray-900 mb-6">
+                    Pilih Solusi yang <span class="gradient-text">Tepat</span>
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Setiap produk dirancang dengan teknologi terdepan dan strategi yang telah terbukti 
+                    memberikan hasil maksimal untuk berbagai jenis bisnis.
+                </p>
+            </div>
+            
+            <!-- Category Filter -->
+            <div class="flex flex-wrap justify-center gap-4 mb-12" data-aos="fade-up" data-aos-delay="100">
+                <button class="category-filter active px-6 py-3 rounded-full font-medium transition-all hover:scale-105" data-category="all">
+                    <i class="fas fa-th-large mr-2"></i>
+                    Semua Produk
+                </button>
+                <button class="category-filter px-6 py-3 bg-gray-100 text-gray-700 rounded-full font-medium transition-all hover:scale-105 hover:bg-gray-200" data-category="sem">
+                    <i class="fas fa-bullhorn mr-2"></i>
+                    SEM
+                </button>
+                <button class="category-filter px-6 py-3 bg-gray-100 text-gray-700 rounded-full font-medium transition-all hover:scale-105 hover:bg-gray-200" data-category="seo">
+                    <i class="fas fa-search mr-2"></i>
+                    SEO
+                </button>
+                <button class="category-filter px-6 py-3 bg-gray-100 text-gray-700 rounded-full font-medium transition-all hover:scale-105 hover:bg-gray-200" data-category="content">
+                    <i class="fas fa-pen-fancy mr-2"></i>
+                    Content
+                </button>
+                <button class="category-filter px-6 py-3 bg-gray-100 text-gray-700 rounded-full font-medium transition-all hover:scale-105 hover:bg-gray-200" data-category="consultation">
+                    <i class="fas fa-user-tie mr-2"></i>
+                    Konsultasi
+                </button>
+            </div>
+            
+            <!-- Products Grid -->
+            <div id="products-grid" class="grid lg:grid-cols-3 md:grid-cols-2 gap-8">
+                <!-- Products will be dynamically generated here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
+        <div class="max-w-4xl mx-auto px-4 text-center" data-aos="fade-up">
+            <h2 class="text-4xl font-bold mb-6">Siap Meningkatkan Bisnis Anda?</h2>
+            <p class="text-xl mb-8 opacity-90">Konsultasi gratis dengan expert kami dan dapatkan strategi digital marketing yang tepat untuk bisnis Anda.</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="https://wa.me/62816404447" class="bg-white text-blue-600 px-8 py-4 rounded-full font-bold hover:bg-gray-100 transition-all transform hover:scale-105">
+                    <i class="fas fa-phone mr-2"></i>
+                    Konsultasi Gratis Sekarang
+                </a>
+                <a href="tel:+6221-1234-5678" class="border-2 border-white text-white px-8 py-4 rounded-full font-bold hover:bg-white hover:text-blue-600 transition-all">
+                    <i class="fas fa-comments mr-2"></i>
+                    Hubungi Kami: 0816-4044-47
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-16">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-8 mb-12">
+                <!-- Company Info -->
+                <div class="lg:col-span-2">
+                    <div class="flex items-center mb-6">
+                        <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center mr-4">
+                            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <div class="text-2xl font-bold" id="footer-company-name">PT DIGITAL INTI ABADI</div>
+                            <div class="text-blue-400 font-medium">#1 Digital Marketing Agency Indonesia</div>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-6 leading-relaxed">
+                        Kami adalah digital marketing agency terdepan di Indonesia yang berkomitmen membantu bisnis Anda berkembang di era digital dengan strategi yang terbukti efektif dan inovatif.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-blue-400 rounded-full flex items-center justify-center hover:bg-blue-500 transition-colors">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-pink-600 rounded-full flex items-center justify-center hover:bg-pink-700 transition-colors">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-blue-700 rounded-full flex items-center justify-center hover:bg-blue-800 transition-colors">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="text-xl font-bold mb-6 text-blue-400">Hubungi Kami</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <i class="fas fa-map-marker-alt text-blue-400 mt-1 mr-3"></i>
+                            <div class="text-gray-300">
+                                <div class="font-medium">Alamat:</div>
+                                <div>Jl. Sudirman No. 123<br>Jakarta Pusat 10220</div>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-phone text-blue-400 mr-3"></i>
+                            <div class="text-gray-300">
+                                <div class="font-medium">Telepon:</div>
+                                <a href="https://wa.me/62816404447" class="hover:text-white transition-colors">+62 816 4044 47</a>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-envelope text-blue-400 mr-3"></i>
+                            <div class="text-gray-300">
+                                <div class="font-medium">Email:</div>
+                                <a href="mailto:info@digitalintijaya.com" class="hover:text-white transition-colors">info@digitalintijaya.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Newsletter -->
+            <div class="border-t border-gray-800 pt-8 mb-8">
+                <div class="max-w-md mx-auto text-center">
+                    <h3 class="text-xl font-bold mb-4 text-blue-400">Newsletter</h3>
+                    <p class="text-gray-300 mb-6">Dapatkan tips dan update terbaru tentang digital marketing</p>
+                    <div class="flex">
+                        <input type="email" placeholder="Masukkan email Anda" class="flex-1 px-4 py-3 rounded-l-full bg-gray-800 text-white border border-gray-700 focus:outline-none focus:border-blue-500">
+                        <button class="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-r-full hover:from-blue-700 hover:to-purple-700 transition-all">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Copyright -->
+            <div class="border-t border-gray-800 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 <span id="footer-copyright-company">PT DIGITAL INTI ABADI</span>. All rights reserved. | Designed with ❤️ for Indonesian Businesses</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        
+        <script>
+            // Initialize AOS
+            AOS.init({
+                duration: 1000,
+                once: true,
+                offset: 100
+            });
+            
+            // Mobile menu toggle
+            const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+            const mobileMenu = document.getElementById('mobile-menu');
+            
+            if (mobileMenuBtn && mobileMenu) {
+                mobileMenuBtn.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                });
+            }
+            
+            // Smooth scrolling for navigation links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+            
+            // Navbar background on scroll
+            window.addEventListener('scroll', () => {
+                const navbar = document.querySelector('nav');
+                if (navbar) {
+                    if (window.scrollY > 100) {
+                        navbar.classList.add('bg-white/95');
+                        navbar.classList.remove('bg-white/90');
+                    } else {
+                        navbar.classList.add('bg-white/90');
+                        navbar.classList.remove('bg-white/95');
+                    }
+                }
+            });
+        
+            // Generate products dynamically
+            function generateProducts() {
+                const productsGrid = document.getElementById('products-grid');
+                if (!productsGrid) return;
+                
+                productsGrid.innerHTML = '';
+                
+                products.forEach((product, index) => {
+                    const productCard = document.createElement('div');
+                    productCard.className = `product-card bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden group`;
+                    productCard.setAttribute('data-category', product.category);
+                    productCard.setAttribute('data-aos', 'fade-up');
+                    productCard.setAttribute('data-aos-delay', (index * 100).toString());
+                    
+                    const popularBadge = product.popular ? 
+                        `<div class="absolute top-4 right-4 bg-gradient-to-r from-yellow-400 to-orange-500 text-white px-3 py-1 rounded-full text-xs font-bold">
+                            <i class="fas fa-star mr-1"></i>
+                            POPULER
+                        </div>` : '';
+                    
+                    const featuresHTML = product.features.map(feature => 
+                        `<li class="feature-item text-gray-600 text-sm">${feature}</li>`
+                    ).join('');
+                    
+                    productCard.innerHTML = `
+                        <div class="relative">
+                            ${popularBadge}
+                            <div class="p-8">
+                                <!-- Icon & Category -->
+                                <div class="flex items-center justify-between mb-6">
+                                    <div class="w-16 h-16 bg-gradient-to-br ${product.color} rounded-2xl flex items-center justify-center text-white text-2xl">
+                                        <i class="${product.icon}"></i>
+                                    </div>
+                                    <div class="text-right">
+                                        <div class="text-xs font-semibold ${product.textColor} uppercase tracking-wider">${product.category.toUpperCase()}</div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Title & Description -->
+                                <h3 class="text-2xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
+                                    ${product.name}
+                                </h3>
+                                <p class="text-gray-600 mb-6 leading-relaxed">
+                                    ${product.description}
+                                </p>
+                                
+                                <!-- Features -->
+                                <div class="mb-8">
+                                    <h4 class="font-semibold text-gray-900 mb-4 flex items-center">
+                                        <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                                        Fitur Utama:
+                                    </h4>
+                                    <ul class="space-y-2">
+                                        ${featuresHTML}
+                                    </ul>
+                                </div>
+                                
+                                <!-- Price & CTA -->
+                                <div class="border-t border-gray-100 pt-6">
+                                    <div class="flex items-center justify-between mb-6">
+                                        <div>
+                                            <div class="text-3xl font-bold text-gray-900">${product.price}</div>
+                                            <div class="text-sm text-gray-500">${product.period}</div>
+                                        </div>
+                                        <div class="price-badge text-white px-4 py-2 rounded-full text-sm font-bold">
+                                            Hemat 30%
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="space-y-3">
+                                        <a href="https://wa.me/62816404447" class="block w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white text-center py-4 rounded-xl font-bold hover:from-blue-700 hover:to-purple-700 transition-all transform hover:scale-105">
+                                            <i class="fas fa-shopping-cart mr-2"></i>
+                                            Pilih Paket Ini
+                                        </a>
+                                        <a href="https://wa.me/62816404447" class="block w-full border-2 border-gray-200 text-gray-700 text-center py-3 rounded-xl font-medium hover:border-blue-500 hover:text-blue-600 transition-all">
+                                            <i class="fas fa-comments mr-2"></i>
+                                            Konsultasi Gratis
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    
+                    productsGrid.appendChild(productCard);
+                });
+            }
+        
+            // Category Filter functionality
+            function initCategoryFilter() {
+                document.querySelectorAll('.category-filter').forEach(button => {
+                    button.addEventListener('click', function() {
+                        // Remove active class from all buttons
+                        document.querySelectorAll('.category-filter').forEach(btn => {
+                            btn.classList.remove('active');
+                            btn.classList.add('bg-gray-100', 'text-gray-700');
+                            btn.classList.remove('text-white');
+                        });
+                        
+                        // Add active class to clicked button
+                        this.classList.add('active');
+                        this.classList.remove('bg-gray-100', 'text-gray-700');
+                        this.classList.add('text-white');
+                        
+                        // Get category
+                        const category = this.dataset.category;
+                        
+                        // Filter products
+                        document.querySelectorAll('.product-card').forEach(card => {
+                            if (category === 'all' || card.dataset.category === category) {
+                                card.style.display = 'block';
+                            } else {
+                                card.style.display = 'none';
+                            }
+                        });
+                    });
+                });
+            }
+        
+            // Initialize everything when DOM is loaded
+            document.addEventListener('DOMContentLoaded', function() {
+                // Update company name in various places
+                const companyElements = document.querySelectorAll('#company-name, #footer-company-name, #footer-copyright-company');
+                companyElements.forEach(element => {
+                    if (element) element.textContent = companyName;
+                });
+                
+                // Generate products
+                generateProducts();
+                
+                // Initialize category filter
+                initCategoryFilter();
+            });
+        </script>
+</body>
+</html>
